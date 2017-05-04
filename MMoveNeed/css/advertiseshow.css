@@ -1,0 +1,12 @@
+﻿/*advertiseshow-css*/
+.direction_pointer {border: 40px solid #fff;filter: alpha(opacity=50);-moz-opacity: 0.5;opacity: 0.5;cursor: pointer;}
+.rightpointer {border-right-color: #aaa4a4;float: left;margin-left: 20px;}
+.leftpointer {border-left-color: #aaa4a4;float: right;margin-right: 20px;}
+#selectliareaul li {float: left;width: 20px;margin-left: 5px;height: 20px;cursor: pointer;background-color: #000000;text-align: center;line-height: 20px;}
+.directionarea {width: 1024px;height: 80px;position: absolute;margin-top: 160px;}
+.newsscrollarea {width: 1024px;height: 400px;}
+.selectliarea {width: 200px;height: 20px;position: absolute;margin-top: 360px;margin-left: 414px;}
+#selectliareaul {margin: 0;height: 20px;text-align: center;list-style: none;text-align: center;}
+
+/*index-css*/
+  #showhotjob{width: 1024px; height: 400px;}        

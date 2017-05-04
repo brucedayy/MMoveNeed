@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="index.master.cs" Inherits="Move.index" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>moveneed</title>
+    <meta charset="utf-8" />
+    <link href="css/index.css" rel="stylesheet" />
+</head>
+<body>
+    <form runat="server">
+        <div class="moveneed_topmost">
+            <div class="content">
+                <div id="indexmaster_logo" style="width: 100px;height: 30px;background-color: #e9dede;float: left;line-height: 30px;">welcome!!!</div>
+                <div id="loginsingup" style="width: 120px;height: 30px;background-color: #e9dede;float: right;line-height: 30px;text-align: center;">
+                    <asp:LinkButton Text="注册" ID="reg" OnClick="reg_Click" runat="server"></asp:LinkButton>|
+                    <asp:LinkButton Text="登陆" ID="log" OnClick="log_Click" runat="server"></asp:LinkButton>
+                </div>
+            </div>
+        </div>
+        <div class="moveneed_hnav">
+            <div class="uldiv">
+                <ul id="navul">
+                    <li id="navindex"><a href="index.aspx">首页</a></li>
+                    <li id="navfindjob"><a href="FindPTJob.aspx">寻找兼职</a></li>
+                    <li id="navpublishjob"><a href="PublishPTJob.aspx">发布兼职</a></li>
+                    <li id="navnotice"><a href="WebNotice.aspx">网站公告</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="placeholder">
+            <asp:ContentPlaceHolder ID="ContentPlaceholder1" runat="server"></asp:ContentPlaceHolder>
+        </div>
+        <div class="moveneed_footer">
+            <div class="cpright">&copy;bruceday2015</div>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,16 @@
+﻿/*index-master-css*/
+body {margin: 0;background-color: #ffffff;}
+.moveneed_topmost {height: 30px;background-color:#e9dede;}
+.moveneed_topmost .content {margin: auto;width: 1024px;height: 30px;}
+.moveneed_hnav {margin: auto;width: 1024px;height: 50px;}
+.moveneed_footer {margin: auto;width: 1024px;height: 40px;background-color: #000000;}
+.moveneed_hnav .uldiv {float: left;width: 400px;height: 50px;}
+#navul {list-style: none;margin-top: 0;margin-left: 0;width: 400px;height: 50px;padding: 0;}
+#navul li {float: left;line-height: 50px;width: 100px;height: 50px;text-align: center;cursor: pointer;font-family:'Microsoft YaHei';}
+#latestjobarea {margin: auto;width: 1024px;height: 1000px;background-color: #e9dede;}
+#noticearea {margin:auto;width:1024px;height:400px;background-color:#32c843;}
+.cpright {height:20px;background-color:#000000;color:#ffffff;font-size:14px;}
+#indexmaster_logo {width: 100px;height: 30px;background-color: #e9dede;float: left;line-height: 30px;}
+#loginsingup {width: 120px;height: 30px;background-color: #e9dede;float: right;line-height: 30px;text-align: center;}
+#navul li a {text-decoration: none;}
+#placeholder {width: 1024px;margin: auto;}

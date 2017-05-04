@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="backadmin.master.cs" Inherits="MMoveNeed.backadmin" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>backAdmin</title>  
+     <link href="css/backadmin.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="width:1280px;height:40px;margin:auto;background-color:#e5dbdb;line-height:40px;"> 
+        <h4>MMoveNeed管理</h4>
+    </div>
+        <div style="width:1280px;margin:auto;">
+            <div style="width:150px;height:150px;float:left;margin-top:7px;">                         
+                <ul>                    
+                    <li><a href="employeeAdmin.aspx">雇员管理</a></li>
+                    <li><a href="employerAdmin.aspx">雇主管理</a></li>
+                    <li><a href="jobDataAdmin.aspx">兼职审核</a></li>
+                    <li><a href="jobDischarge.aspx">兼职下架</a></li>
+                    <li><a href="AllProject.aspx">所有项目</a></li>
+                </ul>                               
+            </div>
+            <div style="width:1100px;float:left;">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

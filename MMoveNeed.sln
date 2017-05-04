@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMoveNeed", "MMoveNeed\MMoveNeed.csproj", "{F4EB2C5F-61CC-469A-851F-1837E614AF93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMoveNeed.DAL", "MMoveNeed.DAL\MMoveNeed.DAL.csproj", "{B55A5207-4E2C-495E-ADD6-A5440A821E18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMoveNeed.BLL", "MMoveNeed.BLL\MMoveNeed.BLL.csproj", "{0A18B9E6-5D3F-40AB-9D27-EEDA61CE3154}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4EB2C5F-61CC-469A-851F-1837E614AF93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4EB2C5F-61CC-469A-851F-1837E614AF93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4EB2C5F-61CC-469A-851F-1837E614AF93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4EB2C5F-61CC-469A-851F-1837E614AF93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B55A5207-4E2C-495E-ADD6-A5440A821E18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B55A5207-4E2C-495E-ADD6-A5440A821E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B55A5207-4E2C-495E-ADD6-A5440A821E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B55A5207-4E2C-495E-ADD6-A5440A821E18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A18B9E6-5D3F-40AB-9D27-EEDA61CE3154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A18B9E6-5D3F-40AB-9D27-EEDA61CE3154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A18B9E6-5D3F-40AB-9D27-EEDA61CE3154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A18B9E6-5D3F-40AB-9D27-EEDA61CE3154}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
